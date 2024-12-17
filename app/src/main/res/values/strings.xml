@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MockyExampleAPI</string>
+    <string name="splash_background">Splash Background</string>
+</resources>

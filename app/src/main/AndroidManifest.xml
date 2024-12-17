@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The root element of the manifest file. This contains the entire app configuration. -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Declare the permission to allow the app to access the internet.
+         This is required for network operations, such as API requests. -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- The application element contains the entire app's configuration, activities, services, etc. -->
+    <application
+        android:allowBackup="true"
+    android:dataExtractionRules="@xml/data_extraction_rules"
+    android:fullBackupContent="@xml/backup_rules"
+    android:icon="@mipmap/ic_launcher_app"
+    android:label="MockyDogBreedAPI"
+    android:roundIcon="@mipmap/ic_launcher_app_round"
+    android:supportsRtl="true"
+    android:theme="@style/Theme.MockyDogBreedAPI"
+    tools:targetApi="31">
+
+    <!-- Definition of the SplashActivity, which acts as the entry point of the app. -->
+    <activity
+        android:name=".MainActivity"
+    android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
+    android:exported="true">
+
+    <!-- Intent filter to define this activity as the main entry point of the app. -->
+    <intent-filter>
+        <!-- Specifies that this activity responds to the MAIN action (entry point). -->
+        <action android:name="android.intent.action.MAIN" />
+
+        <!-- Specifies that this activity should appear in the launcher (app drawer). -->
+        <category android:name="android.intent.category.LAUNCHER" />
+    </intent-filter>
+</activity>
+
+    </application>
+
+    </manifest>

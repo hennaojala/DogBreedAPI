@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Golden Retriever",
+    "origin": "United Kingdom",
+    "size": "Medium",
+    "coat": "Short",
+    "temperament": ["Friendly", "Intelligent", "Reliable"],
+    "lifeExpectancy": "10-12 years",
+    "description": "The Golden Retriever is a friendly and intelligent breed. Known for its loyalty and good nature, it is one of the most popular family pets worldwide. This breed is often used as a service dog due to its trainability and calm demeanor."
+  },
+  {
+    "name": "German Shepherd",
+    "origin": "Germany",
+    "size": "Large",
+    "coat": "Medium",
+    "temperament": ["Confident", "Courageous", "Smart"],
+    "lifeExpectancy": "9-13 years",
+    "description": "The German Shepherd is a courageous and intelligent dog breed. It is known for its loyalty and protective nature, making it an excellent working dog. Commonly used in police and military roles, this breed is highly trainable and versatile."
+  },
+  {
+    "name": "Bulldog",
+    "origin": "England",
+    "size": "Medium",
+    "coat": "Short",
+    "temperament": ["Docile", "Willful", "Friendly"],
+    "lifeExpectancy": "8-12 years",
+    "description": "Bulldogs are known for their stocky build and distinctive wrinkled face. They are affectionate and gentle, making them great companions. Despite their tough appearance, Bulldogs are calm and enjoy spending time with their families."
+  },
+  {
+    "name": "Beagle",
+    "origin": "United Kingdom",
+    "size": "Small",
+    "coat": "Short",
+    "temperament": ["Curious", "Friendly", "Merry"],
+    "lifeExpectancy": "12-15 years",
+    "description": "Beagles are known for their small size and distinctive howl. Originally bred for hunting, they are highly energetic and curious. They are friendly dogs that get along well with children and other pets."
+  },
+  {
+    "name": "Poodle",
+    "origin": "Germany",
+    "size": "Medium",
+    "coat": "Curly",
+    "temperament": ["Intelligent", "Active", "Alert"],
+    "lifeExpectancy": "12-15 years",
+    "description": "The Poodle is an elegant and intelligent dog breed, known for its curly coat and hypoallergenic qualities. Poodles are highly trainable, active, and excel in dog sports. They come in three sizes: Standard, Miniature, and Toy."
+  }
+]
